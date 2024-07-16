@@ -1,0 +1,141 @@
+body {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  line-height: 1.6;
+  background-color: #e0e1dd;
+  color: #081c15;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: #778da9;
+  padding: 1rem;
+  text-align: left;
+}
+header .logo {
+  display: flex;
+  align-items: center;
+}
+header .logo img {
+  border-radius: 12%;
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  object-fit: cover;
+}
+header .logo h1 {
+  font-size: 1.25rem;
+  margin: 0;
+}
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 2rem;
+}
+.container img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  object-position: left;
+  border-radius: 10px;
+}
+.section {
+  margin-bottom: 2rem;
+}
+.section h2 {
+  margin-top: 0px;
+  color: #1b263b;
+  font-size: 40px;
+}
+.section h3 {
+  color: #1b263b;
+  font-size: 20px;
+}
+.article-list {
+  list-style-type: none;
+  padding: 0;
+}
+.article-list li {
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.article-list li img {
+  width: 80px;
+  height: 80px;
+  margin-right: 1rem;
+  border-radius: 10px;
+}
+.article-list li a {
+  color: #1b4332;
+  text-decoration: none;
+  font-weight: bold;
+}
+.article-list li p {
+  margin: 0;
+}
+footer {
+  background-color: #081c15;
+  color: #d8f3dc;
+  text-align: center;
+  padding: 0.27rem;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.subscribe-box {
+  text-align: center;
+}
+.subscribe-box input[type="email"] {
+  padding: 0.5rem;
+  font-size: 1rem;
+  margin-right: 0rem;
+  font-family: Cambria, Cochin;
+}
+.subscribe-box button {
+  padding: 0.70rem 1rem;
+  padding-left: 2rem;
+  margin-left: 0;
+  background-color: #1b263b;
+  color: white;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.about-author {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 6px;
+  background-color: #e0e1dd;
+  padding: 1rem;
+  border-radius: 5px;
+}
+.social-icons img {
+  width: 30px;
+  height: 30px;
+}
+.about-author .author-info {
+  font-size: 1rem;
+}
+.about-author .social-icons {
+  display: flex;
+  gap: 0.5rem;
+}
+.about-author .social-icons a {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-color: #0d1b2a;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-decoration: none;
+} 
